@@ -1,1 +1,60 @@
-gsgr
+<html>
+<head>
+	<title>Drum Kit</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<h1>Welcome to your Vanilla DJ</h1>
+	<h3>Press the corressponding key to play the sound.</h3>
+	<div class="keys">
+		<div class="key" data-key="65">
+			<span> A</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="83">
+			<span> S</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="68">
+			<span> D</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="70">
+			<span> F</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="71">
+			<span> H</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="72">
+			<span> J</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="74">
+			<span> K</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="75">
+			<span> L</span>
+			<span class="sound"></span>
+		</div>
+		<div class="key" data-key="76">
+			<span> L</span>
+			<span class="sound"></span>
+		</div>
+	</div>
+
+
+	<audio data-key="65" src="audio/clap.wav"></audio>
+	<audio data-key="83" src="audio/hihat.wav"></audio>
+	<audio data-key="68" src="audio/kick.wav"></audio>
+	<audio data-key="70" src="audio/openhat.wav"></audio>
+	<audio data-key="71" src="audio/ride.wav"></audio>
+	<audio data-key="72" src="audio/snare.wav"></audio>
+	<audio data-key="74" src="audio/tink.wav"></audio>
+	<audio data-key="75" src="audio/tom.wav"></audio>
+	<audio data-key="76" src="audio/boom.wav"></audio>
+</body>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

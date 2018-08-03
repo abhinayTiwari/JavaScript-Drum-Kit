@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+}
+
+h1,h3{
+	color: white;
+}
+.keys{
+    position: absolute;
+    bottom: 0;
+    top: 50%;
+    left: 0;
+    width: 479px;
+    margin: auto;
+    right: 0;
+}
+.key{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #e0e316;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	transition: all 0.07s;
+	background-color: #17e8e8;
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: #17e8e8;
+	background-color: #e0e316;
+}
+
+.key span{
+
+}
